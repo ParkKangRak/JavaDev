@@ -1,5 +1,5 @@
 package com.kngiht.bagic;
 
-public class commitTest {
+public class gitCommitTest {
 
 }
