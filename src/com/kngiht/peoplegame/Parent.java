@@ -9,18 +9,22 @@ public class Parent extends People {
 
   @Override
   public void location() {
-    getX();
-    getY();
+    System.out.println(getName() + "," + getAge() + "(" + getX() + "," + getY() + ")");
+
+
   }
 
   @Override
   public void walk(int x, int y) {
+    setX(x);
+    setY(y);
 
   }
 
 
-  public void run() {
-
+  public void run(int x, int y) {
+    setX(x);
+    setY(y);
   }
 
 }

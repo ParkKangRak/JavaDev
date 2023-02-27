@@ -9,7 +9,7 @@ public class Son extends People {
 
   @Override
   public void location() {
-    System.out.println(getName()+","+getAge()+"("+getX()+","+getY()+")");
+    System.out.println(getName() + "," + getAge() + "(" + getX() + "," + getY() + ")");
 
 
   }

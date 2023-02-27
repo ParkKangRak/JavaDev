@@ -9,12 +9,15 @@ public class GrandParent extends People {
 
   @Override
   public void location() {
-    getX();
-    getY();
+    System.out.println(getName() + "," + getAge() + "(" + getX() + "," + getY() + ")");
+
+
   }
 
   @Override
   public void walk(int x, int y) {
+    setX(x);
+    setY(y);
 
   }
 }
