@@ -7,8 +7,15 @@ public abstract class People {
 
 
   public People(String name, int age) {
+    this(name, age, 0, 0);
+  }
+
+
+  public People(String name, int age, int x, int y) {
     this.name = name;
     this.age = age;
+    this.x = x;
+    this.y = y;
   }
 
   public abstract void location();

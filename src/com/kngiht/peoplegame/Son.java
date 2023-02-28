@@ -32,4 +32,7 @@ public class Son extends People {
   }
 
 
+  public void gun() {
+    System.out.println("모든사람을 공격하여 원점으로 보낸다.");
+  }
 }
