@@ -1,4 +1,4 @@
-package com.kngiht.peoplegame;
+package com.knight.peoplegame;
 
 import java.util.Scanner;
 
