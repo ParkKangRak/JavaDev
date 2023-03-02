@@ -3,7 +3,7 @@ package com.knight.collection;
 import java.util.ArrayList;
 
 
-public class arrayListExam {
+public class ArrayListExam {
 
   public static void main(String[] args) {
 
